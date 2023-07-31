@@ -1,3 +1,6 @@
+#ifndef GPS_H
+#define GPS_H
+
 #include "tm4c123gh6pm.h"
 #include "GPIO.h"
 #include <math.h>
@@ -22,3 +25,5 @@ float getDistance(float,float, float,float);
 void GPS_Read();
  float degToLat(float);
  float degToLong(float);
+
+#endif

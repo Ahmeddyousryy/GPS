@@ -1,3 +1,7 @@
+#ifndef GPIO_H
+#define GPIO_H
+
+
 #include "tm4c123gh6pm.h"
 #include "BitMask.h"
 
@@ -60,3 +64,5 @@ void GPIO_SetPinValue(unsigned char , unsigned char);
 #define PF2_PIN                        62
 #define PF3_PIN                        63
 #define PF4_PIN                        64
+
+#endif

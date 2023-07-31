@@ -89,9 +89,9 @@ void GPIO_LCD_WriteString(unsigned char* string)
 }
 
 void GPIO_LCD_Clear()
-{
-	GPIO_LCD_WriteCommand(0x01);
-}
+  {
+	    GPIO_LCD_WriteCommand(0x01);
+  }
 
 void GPIO_LCD_WriteNumber(signed int Number)
 {
@@ -105,8 +105,8 @@ void GPIO_LCD_WriteNumber(signed int Number)
 
 	do
 	{
-		Arr[Counter] = Number % 10;
-		Number = Number / 10;
+        Arr[Counter] = Number % 10;
+	Number = Number / 10;
 	Counter++;
 	}while(Number != 0);
 

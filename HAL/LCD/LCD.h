@@ -1,3 +1,5 @@
+#ifndef LCD_H
+#define LCD_H
 #include "tm4c123gh6pm.h"
 #include "BitMask.h"
 #include "GPIO.h"
@@ -19,3 +21,5 @@ void GPIO_LCD_Clear();
 #define LCD_D5                 PB5_PIN
 #define LCD_D6                 PB6_PIN
 #define LCD_D7                 PB7_PIN
+
+#endif

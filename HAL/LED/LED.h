@@ -1,4 +1,5 @@
-
+#ifndef LED_H
+#define LED_H
 #include "tm4c123gh6pm.h"
 #include "BitMask.h"
 #include "GPIO.h"
@@ -11,3 +12,5 @@ void GPIO_LED_Init();
 void GPIO_LED_On(unsigned char);
 void GPIO_LED_Off(unsigned char);
 void GPIO_LED_Off_All();
+
+#endif

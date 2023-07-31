@@ -1,3 +1,5 @@
+#ifndef UART_H
+#define UART_H
 #include "tm4c123gh6pm.h"
 #include "BitMask.h"
 #include "GPIO.h"
@@ -10,3 +12,5 @@ char UART2_Receive(void);
 void UART2_Send(char data);
 void UART2_SendString(char*);
 void getCommand(char*,int);
+
+#endif

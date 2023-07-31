@@ -48,12 +48,12 @@ float getDistance(float currentLat,float currentLong , float destLat , float des
 void GPS_Read()
 {
 	
-	  char GPS_logName[] = "$GPRMC,";
-    char character ;
-	  char dataName;
-	  char data; 
-	  char i ;
-    char flag = 0;
+       char GPS_logName[] = "$GPRMC,";
+       char character ;
+       char dataName;
+       char data;   
+       char i ;
+       char flag = 0;
 	
 	
 	 while(flag==0)                                  //THIS PART TO CHECK THE CORRECT LOG NAME
@@ -72,13 +72,13 @@ void GPS_Read()
         }
     }
 				
-		     character = 0;
+         character = 0;
          dataName = 0;
          data = 0;
     while(character!='*')
     {
         character = UART2_Receive();
-			//  UART2_Send(character);
+    //  UART2_Send(character);
 
        if(character != ',')
        {
