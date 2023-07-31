@@ -2,7 +2,7 @@
 ## A simple GPS Using TM4C123GH6PM Mircocontroller [ Tiva C Board ]
 
 ### Objectives 
-* This project aims to detect a destination using its Latitude and Longitude.
+* This project aims to detect any destination using its Latitude and Longitude.
   
 
 ### Description
